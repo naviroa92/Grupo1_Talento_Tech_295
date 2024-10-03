@@ -5,3 +5,10 @@
     width: 10%;
 }
 
+.btn {
+    padding: 10px 30px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    list-style: none;
+    border: solid 1px;
+}
