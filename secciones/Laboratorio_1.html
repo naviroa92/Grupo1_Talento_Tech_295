@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 1</title>
+</head>
+<body>
+    <header>
+        <h1>Laboratorio 1</h1>
+        <p> Introducción a HTML5</p>
+    </header>
+    <details>
+        <summary>Despliga a continuacion una sección:</summary>
+        <ul>
+        <li><a href="#introduccion">Introducción</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#imagenes">Imágenes</a></li>
+        <li><a href="#formulario">Formulario</a></li>
+        </ul>
+    </details>
+    <section id="introduccion">
+        <h2>Producciones Artisticas</h2>
+        <p>Basicamente se muestran a continuacion diferentes tipo de contenidos de artitas que publican medios de alta calidad accesible a todos los publicos. tambien como videos que inpiran o promueven el cambio en las personas</p>
+        </section>
+        <section id="videos">
+        <h2>Videos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1inHAkpXXTs?si=Tk5qP_C-hAp1mV6S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="imagenes">
+        <h2>Imágenes de alta calidad de artistas random en la red</h2>
+        <img src="https://images.freeimages.com/images/large-previews/1f7/lava-1171759.jpg" alt="Ear_Candy">
+        <img src="https://images.freeimages.com/images/large-previews/bcd/bronze-texture-1177009.jpg?fmt=webp&h=350" alt="dlritter">
+        <img src="https://images.freeimages.com/images/large-previews/fa2/water-drops-1177030.jpg?fmt=webp&h=350" alt=" 
+        icekitty37">
+    </section>
+    <section id="fomulario"> 
+        <h2> Formulario</h2>
+        <form action="/submit" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section id="tabla">
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Producto 1</td>
+                    <td>$100.000</td>
+                </tr>
+                <tr>
+                    <td>Producto 2</td>
+                    <td>$80.000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>$180.000</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <footer>
+        <p> &copy; 2024 Desarollado por Andres Ortiz</p>
+    </footer>
+</body>
+</html>
